@@ -3,10 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import styles from './styles.module.css';
 import { ranks, items, type Rank, type StoreItem } from './store-data';
 import { RedeemPage } from './redeem-page';
-import logo from './assets/ather-logo.png';
-import bannerStats from './assets/banner-stats.png';
-import bannerStore from './assets/banner-store.png';
-import bannerJoin from './assets/banner-join.png';
+const logo = '/assets/ather-logo.png';
+const bannerStats = '/assets/banner-stats.png';
+const bannerStore = '/assets/banner-store.png';
+const bannerJoin = '/assets/banner-join.png';
 
 const NAV = ['Store', 'Ranks', 'Keys', 'How to Join'];
 
