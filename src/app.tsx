@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import { ranks, items, type Rank, type StoreItem } from './store-data';
 import { RedeemPage } from './redeem-page';
 const logo = '/assets/logo.png';
-const bannerStats = '/assets/trcanje';
+const bannerStats = '/assets/trcanje.png';
 const bannerStore = '/assets/store.png';
 const bannerJoin = '/assets/howtojoin.png';
 
