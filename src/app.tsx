@@ -3,10 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import styles from './styles.module.css';
 import { ranks, items, type Rank, type StoreItem } from './store-data';
 import { RedeemPage } from './redeem-page';
-const logo = '/assets/ChatGPT Image Jun 29, 2026, 03_32_11 AM.png';
-const bannerStats = '/assets/ChatGPT Image Jun 29, 2026, 03_11_55 AM.png';
-const bannerStore = '/assets/ChatGPT Image Jun 29, 2026, 03_24_35 AM.png';
-const bannerJoin = '/assets/ChatGPT Image Jun 29, 2026, 03_29_01 AM.png';
+const logo = '/assets/logo.png';
+const bannerStats = '/assets/trcanje';
+const bannerStore = '/assets/store.png';
+const bannerJoin = '/assets/howtojoin.png';
 
 const NAV = ['Store', 'Ranks', 'Keys', 'How to Join'];
 
