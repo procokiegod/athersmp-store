@@ -1,11 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
-import { AtherStorePrototype } from './app.js';
+import { AtherStorePrototype } from './app';
 
-const container = document.getElementById('root')!;
-const root = createRoot(container);
-root.render(
-  <BrowserRouter>
-    <AtherStorePrototype />
-  </BrowserRouter>
-);
+const root = createRoot(document.getElementById('root')!);
+root.render(<BrowserRouter><AtherStorePrototype /></BrowserRouter>);
